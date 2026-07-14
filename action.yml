@@ -67,4 +67,4 @@ runs:
       uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b
       with:
         path: ${{ inputs.working_directory }}/${{ inputs.output_dir }}
-        include-hidden-files: true
+        include-hidden-files: "true"
